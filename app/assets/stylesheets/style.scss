@@ -1,0 +1,16 @@
+.navbar {
+  border-color: white;
+  background-color: white;
+}
+
+/* For width smaller than 400px: */
+.banner-image {
+  background-image: url('./assets/banner.png');
+}
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 700px) {
+  .banner-image {
+    background-image: url('./assets/banner@2x.png');
+  }
+}
