@@ -1,2 +1,14 @@
 @import 'bootstrap.min';
 @import "style";
+@import 'quadro_labels';
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: normal;
+  src: url('/assets/Lato-Light.ttf');
+}

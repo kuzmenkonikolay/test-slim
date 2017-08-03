@@ -1,16 +1,262 @@
 .navbar {
   border-color: white;
   background-color: white;
+  padding: 15px 20px 0px 20px;
 }
 
-/* For width smaller than 400px: */
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 0;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+
+
+.banner-image-responsive {
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+.content {
+  margin: 20px 20px 2px 20px;
+}
+
 .banner-image {
-  background-image: url('./assets/banner.png');
+  content:url(../assets/brand.png);
+}
+
+.navbar-nav {
+  padding-top: 7px;
+}
+
+.empty-div {
+  height: 0px;
+}
+
+.display {
+  width: 90%;
+  height: 90%;
+}
+
+.btn-simple {
+  background-color: white;
+  color: #222222;
+  border-color: white;
+}
+
+.btn-empty-blue {
+  background-color: white;
+  color: #2BAFFC;
+  border-color: #2BAFFC;
+  border-radius: 2px;
+  border: 2px solid;
+}
+
+.btn {
+  font-size: 21px;
+  padding: 3px 40px;
+}
+
+.tablet {
+  visibility: hidden;
+}
+
+.content-background {
+  overflow: hidden;
+  z-index: -1;
+  padding: 40px 0 0px 0;
+  background-position: center;
+  position: absolute;
+
+}
+
+.sprout-image {
+  z-index: 2;
+  width: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 143px 0 40px 0;
+  background-position: center;
+}
+
+.body-landing {
+  overflow: hidden;
+  margin-top: 0px;
+  .our-product {
+    h2 {
+      font-size: 30px;
+      color: white;
+    }
+
+    hr {
+      width: 212px;
+      color: white;
+    }
+
+    h4 {
+      font-size: 13px;
+      color: white;
+    }
+  }
+}
+
+.footer {
+  padding-top: 50px;
+  img {
+    z-index: -1;
+  }
+}
+
+.screenshot {
+  margin: -133px 0 0 22px;
+}
+
+.content-screenshot {
+  margin: 0 0 0 0;
+}
+
+.phone {
+  margin: 0 0 0 0;
+}
+
+.text-product {
+  padding: 0px 23px 0px 26px;
 }
 
 /* For width 400px and larger: */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
   .banner-image {
-    background-image: url('./assets/banner@2x.png');
+    content:url(../assets/brand@2x.png);
   }
+
+  .display {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar {
+    border-color: white;
+    background-color: white;
+    padding: 30px 40px 0px 40px;
+  }
+
+  .text-product {
+    padding: 0 0 0 0;
+  }
+
+  .btn-simple {
+    background-color: white;
+    color: #222222;
+    border-color: white;
+  }
+
+  .btn-empty-blue {
+    background-color: white;
+    color: #2BAFFC;
+    border-color: #2BAFFC;
+    border-radius: 2px;
+    border: 2px solid;
+  }
+
+  .empty-div {
+    height: 450px;
+  }
+
+  .btn {
+    font-size: 21px;
+    padding: 3px 40px;
+  }
+
+  .tablet {
+    visibility: visible;
+  }
+
+  .content {
+    margin: 150px 150px 20px 150px;
+  }
+
+  // TODO stub
+  .shipping_pannel {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    background-position: center;
+    content:url(../assets/shipping_panel@2x.png);
+  }
+  //
+
+  .content-background {
+    z-index: -1;
+    background-size: cover;
+    padding: 40px 0 0px 0;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .sprout-image {
+    z-index: 2;
+    background-size: cover;
+    padding: 62px 0 40px 0;
+    background-position: center;
+  }
+
+  .body-landing {
+    overflow: hidden;
+    margin-top: 0px;
+    .our-product {
+      h2 {
+        font-size: 40px;
+        color: white;
+      }
+
+      hr {
+        width: 212px;
+        color: white;
+      }
+
+      h4 {
+        font-size: 23px;
+        color: white;
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 50px;
+    img {
+      z-index: -1;
+    }
+  }
+
+  .screenshot {
+    margin: -80px 0 0 130px;
+  }
+
+  .content-screenshot {
+    margin: 0 0 0 0;
+  }
+
+  .phone {
+    margin: -170px 0 0 0;
+  }
+
 }

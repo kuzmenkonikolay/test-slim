@@ -1,0 +1,39 @@
+.label-image {
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+.ship-dashboard {
+  content:url(../assets/ship_dashboard.png);
+}
+
+.real-time {
+  content:url(../assets/real_time.png);
+}
+
+.all-prices {
+  content:url(../assets/all_prices.png);
+}
+
+.warranty {
+  content:url(../assets/warranty.png);
+}
+
+@media only screen and (min-width: 768px) {
+  .ship-dashboard {
+    content:url(../assets/ship_dashboard@2x.png);
+  }
+
+  .real-time {
+    content:url(../assets/real_time@2x.png);
+  }
+
+  .all-prices {
+    content:url(../assets/all_prices@2x.png);
+  }
+
+  .warranty {
+    content:url(../assets/warranty@2x.png);
+  }
+}
